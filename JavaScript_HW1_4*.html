@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let age_2 = 18
+let age_3 = 60
+
+const checkAge = function(age){
+  age = Number(age)
+
+  if (!isNaN(age)){
+
+    if (typeof age == "number"){
+
+    if (age < age_2 ){
+    alert('You dont have access cause your age is', + age, 'Its less then')
+    }
+
+    else if (age >= age_2 && age <= age_3){
+    alert('Welcome')
+    }
+
+    else if (age > age_3){
+    alert('Keep calm and look Culture channel')
+    }
+
+    else {
+    alert('Technical work')
+    }}
+
+} else {alert("Wrong data type")}
+}
+let agePrompt = prompt("Enter your age")
+checkAge(agePrompt)
+
+</script>
+</body>
+</html>
