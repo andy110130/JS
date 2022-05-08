@@ -82,7 +82,7 @@ const users = [
     },
 ];
 
-users.filter(e => e.registrationDate === "09.10.2021").map(e => console.log(e.firstName, e.lastName))
-users.filter(e => e.registrationDate === "10.10.2021").map(e => console.log(e.firstName, e.lastName))
+users.filter(e => e.registrationDate === "09.10.2021" || e.registrationDate === "10.10.2021").map(e => console.log(e.firstName, e.lastName))
+
 
 
