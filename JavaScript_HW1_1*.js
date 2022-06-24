@@ -1,5 +1,5 @@
 
-
+// Написать функцию, которая принимает на вход возраст
 function checkAge(age1){if (age1 > 60)
   {return true}
 }
