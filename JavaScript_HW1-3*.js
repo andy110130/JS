@@ -121,6 +121,14 @@ checkAge("-22323")
 
 // Задание №4. Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
 let age_2 = 18
 let age_3 = 60
 
@@ -149,7 +157,12 @@ const checkAge = function(age){
 
 } else {alert("Wrong data type")}
 }
-let age = prompt("Enter your age")
+let agePrompt = prompt("Enter your age")
+checkAge(agePrompt)
+
+</script>
+</body>
+</html>
 
 
 
